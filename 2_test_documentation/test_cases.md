@@ -60,10 +60,10 @@ Endpoint:
 - event_id в теле ответа
 
 **SQL-проверка:**
-SELECT * 
-FROM events 
-WHERE camera_id = 1 
-ORDER BY timestamp DESC;
+  SELECT * 
+  FROM events 
+  WHERE camera_id = 1 
+  ORDER BY timestamp DESC;
 
 
 **ТС-03. Восстановление видеопотока после сетевого обрыва**
